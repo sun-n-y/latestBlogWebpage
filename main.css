@@ -42,6 +42,25 @@ body {
   margin-bottom: 2rem;
 }
 
+.blogs-center {
+  width: var(--fluid-width);
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.blog {
+  background: var(--white);
+  padding: 0.75rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-light);
+  transition: var(--transition);
+  margin-bottom: 2rem;
+}
+
+.blog:hover {
+  box-shadow: var(--shadow-dark);
+}
+
 img {
   width: 100%;
 }
