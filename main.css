@@ -69,6 +69,30 @@ body {
   margin-bottom: 0.5rem;
 }
 
-/* img {
-  width: 100%;
-} */
+.blog-content {
+  padding-bottom: 1rem;
+}
+
+.blog-content span {
+  text-transform: uppercase;
+  color: var(--primary);
+  letter-spacing: var(--letter-spacing);
+  font-weight: 500;
+}
+
+.blog-content h3 {
+  text-transform: capitalize;
+  letter-spacing: var(--letter-spacing);
+}
+
+.blog-content p {
+  color: var(--grey);
+  margin-bottom: 0.5rem;
+}
+
+.blog-content a {
+  text-transform: capitalize;
+  color: var(--primary-dark);
+  letter-spacing: 1px;
+  font-weight: 500;
+}
